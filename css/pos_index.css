@@ -2,11 +2,10 @@
 
 body {
     display: grid;
-    grid-template-columns: 2fr, 5fr, 3fr;
+    grid-template-columns: 1fr, 3fr;
     grid-template-areas:
-        "header header header"
-        "asideIndex introduction asideImg"
-        "image image audio";
+        "header header"
+        "asideIndex introduction";
 }
 
 /* Especificidad: (0, 1, 0) */
@@ -19,18 +18,6 @@ body {
 
 aside#index {
     grid-area: asideIndex;
-}
-
-/* Especificidad: (1, 0, 1) */
-
-aside#img {
-    grid-area: asideImg;
-}
-
-/* Especificidad: (1, 0, 2) */
-
-aside#img audio {
-    grid-area: audio;
 }
 
 /* Especificidad: (0, 0, 1) */
