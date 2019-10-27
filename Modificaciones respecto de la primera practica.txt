@@ -1,0 +1,1 @@
+Modificado index.html para incluir un aside que separe la foto del texto en la introducción de Los Soprano.

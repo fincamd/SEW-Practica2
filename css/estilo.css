@@ -1,0 +1,15 @@
+/* Especificidad: (0, 0, 1) */
+
+body {
+    background-color: grey;
+}
+
+/* Especificidad: (0, 1, 0) */
+
+.textSection {
+    color: white;
+    background-color: lightsalmon;
+    padding: 30px;
+    margin: 20px 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,3 @@
+W3C Validator
+TAW accesibility (Solo indispensable 0 problemas, lo demas advertencias y otras cosas no worries --> importante aspa roja == 0)
+Google Mobile Friendly (GMF) mov
