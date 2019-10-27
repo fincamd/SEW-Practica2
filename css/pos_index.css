@@ -3,7 +3,8 @@
 body {
     display: grid;
     grid-template-columns: 2fr, 5fr, 3fr;
-    grid-template-areas: 
+    grid-template-areas:
+        "header header header"
         "asideIndex introduction asideImg"
         "image image audio";
 }
@@ -30,4 +31,8 @@ aside#img {
 
 aside#img audio {
     grid-area: audio;
+}
+
+header {
+    grid-area: header;
 }
