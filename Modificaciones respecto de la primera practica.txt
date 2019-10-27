@@ -4,3 +4,4 @@ Audio incluido en index.html movido de sito.
 Cambiado un h2 dentro de personajes_y_reparto.html
 Modificado argumento_y_temporadas.html para incluir una section que envuelva al contenido del documento con su titulo
 Algunos html han sido modificados para añadir las clases correspondientes del .css
+Caption de la tabla de lanzamientos retirado
