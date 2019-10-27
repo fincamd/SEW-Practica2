@@ -14,20 +14,20 @@ body {
     grid-area: introduction;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
 aside#index {
     grid-area: asideIndex;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
 aside#img {
     grid-area: asideImg;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 2) */
 
-audio {
+aside#img audio {
     grid-area: audio;
 }
