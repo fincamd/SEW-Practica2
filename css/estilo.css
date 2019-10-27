@@ -1,3 +1,16 @@
+/* especificidad de las cinco reglas: (0,0,1) */
+
+p, ul, ol, dl, td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+/* especificidad: (0,0,2) */
+
+p::first-letter {
+    font-size: 2em;
+}
+
 /* Especificidad: (0, 0, 1) */
 
 body {
