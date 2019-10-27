@@ -52,7 +52,7 @@ a:hover {
 /* Especificidad: (0, 0, 1) */
 
 ul {
-    list-style-image: square;
+    list-style-type: square;
 }
 
 /* Especificidad: (0, 0, 1) */
