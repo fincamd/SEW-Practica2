@@ -1,8 +1,15 @@
 /* Especificidad: (0, 0, 1) */
 
 h1-h6 {
-    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+/* Especificidad: (0, 0, 1) */
+
+header {
+    background-color: lightcyan;
+    color: indigo;
 }
 
 /* especificidad de las cinco reglas: (0,0,1) */
@@ -38,7 +45,4 @@ body {
 
 a:hover {
     color: green;
-}
-
-table {
 }
