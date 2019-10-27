@@ -65,6 +65,10 @@ table {
     width: 100%;
 }
 
+.darkTableHeader {
+    
+}
+
 td, th {
     text-align: center;
 }
