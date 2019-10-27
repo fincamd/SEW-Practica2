@@ -16,7 +16,7 @@ header {
 
 /* Especificidad de las reglas: (0, 0, 1) */
 
-p, ul, ol, dl, td, li, th, a {
+p, ul, ol, dl, td, li, th, a, figure {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
 }
