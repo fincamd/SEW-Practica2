@@ -60,8 +60,8 @@ ul {
 table {
     border-collapse: collapse;
     caption-side: top;
-    border-color: lightgreen;
-    border-style: double;
+    border-color: black;
+    border-style: solid;
     width: 100%;
 }
 
