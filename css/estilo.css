@@ -14,14 +14,14 @@ header {
     border-radius: 20px;
 }
 
-/* Especificidad de las reglas: (0,0,1) */
+/* Especificidad de las reglas: (0, 0, 1) */
 
-p, ul, ol, dl, td, li, th {
+p, ul, ol, dl, td, li, th, a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
 }
 
-/* Especificidad: (0,0,2) */
+/* Especificidad: (0, 0, 2) */
 
 p::first-letter {
     font-size: 2em;
