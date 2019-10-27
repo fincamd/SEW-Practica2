@@ -2,7 +2,7 @@
 
 h1-h6 {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    font-weight: 600;
 }
 
 /* Especificidad: (0, 0, 1) */
@@ -10,6 +10,7 @@ h1-h6 {
 header {
     background-color: lightcyan;
     color: indigo;
+    text-align: center;
 }
 
 /* especificidad de las cinco reglas: (0,0,1) */
