@@ -1,0 +1,33 @@
+/* Especificidad: (0, 0, 1) */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr, 3fr;
+    grid-template-areas: 
+        "asideIndex introduction asideImg"
+        "image audio";
+}
+
+/* Especificidad: (0, 1, 0) */
+
+.introductionArea {
+    grid-area: introduction;
+}
+
+/* Especificidad: (0, 0, 1) */
+
+aside#index {
+    grid-area: asideIndex;
+}
+
+/* Especificidad: (0, 0, 1) */
+
+aside#img {
+    grid-area: asideImg;
+}
+
+/* Especificidad: (0, 0, 1) */
+
+audio {
+    grid-area: audio;
+}

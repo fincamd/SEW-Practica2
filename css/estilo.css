@@ -1,3 +1,9 @@
+/* Especificidad: (0, 0, 1) */
+
+h1-h6 {
+    color: indigo;
+}
+
 /* especificidad de las cinco reglas: (0,0,1) */
 
 p, ul, ol, dl, td {
@@ -31,4 +37,7 @@ body {
 
 a:hover {
     color: green;
+}
+
+table {
 }

@@ -1,2 +1,2 @@
-TODO: Modificado index.html para incluir un aside que separe la foto del texto en la introducción de Los Soprano.
+Modificado index.html para incluir un aside que separe la foto del texto en la introducción de Los Soprano.
 Modificado argumento_y_temporadas.html para incluir una section que envuelva al contenido del documento con su titulo
