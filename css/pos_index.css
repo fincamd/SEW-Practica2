@@ -33,6 +33,14 @@ aside#img audio {
     grid-area: audio;
 }
 
+/* Especificidad: (0, 0, 1) */
+
 header {
     grid-area: header;
+}
+
+/* Especificidad: (0, 0, 1) */
+
+img {
+    float: left;
 }
