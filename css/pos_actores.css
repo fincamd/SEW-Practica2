@@ -3,8 +3,22 @@
 section#actores {
     display: grid;
     grid-template-columns: repeat(3x1fr);
-    grid-template-areas: 
+    grid-template-areas:
+        "header header header"
+        "text1 text1 text1"
         "figure1 figure2 figure3";
+}
+
+/* Especificidad: (1, 0, 2) */
+
+section#actores header {
+    grid-area: header;
+}
+
+/* Especificidad: (1, 0, 2) */
+
+section#actores p {
+    grid-area: text1;
 }
 
 /* Especificidad: (1, 0, 1) */
