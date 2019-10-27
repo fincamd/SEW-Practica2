@@ -65,17 +65,25 @@ table {
     width: 100%;
 }
 
-.darkTableHeader {
-    
+/* Especificidad: (0, 1, 1) */
+
+.darkTableHeader tr {
+    background-color: lightseagreen;
 }
+
+/* Especificidad: (0, 0, 1) */
 
 td, th {
     text-align: center;
 }
 
+/* Especificidad: (0, 1, 2) */
+
 tr:nth-child(odd) {
     background-color: grey;
 }
+
+/* Especificidad: (0, 1, 2) */
 
 tr:nth-child(even) {
     background-color: lightgray;
