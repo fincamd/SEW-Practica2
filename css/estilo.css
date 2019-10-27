@@ -50,5 +50,5 @@ a:hover {
 }
 
 ul {
-    list-style-image: url(http://developer.android.com/design/media/iconography_small_size.png);
+    list-style-image: circle inside none;
 }
