@@ -88,3 +88,18 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: lightgray;
 }
+
+/* Especificidad: (0, 1, 1) */
+
+audio:hover, audio:focus, audio:active {
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+/* Especificidad: (0, 0, 1) */
+
+audio {
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 4px 0px #006773;
+    border-radius: 7px 7px 7px 7px;
+}
