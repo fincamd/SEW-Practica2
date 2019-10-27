@@ -1,25 +1,25 @@
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
-section {
+section#actores {
     display: grid;
     grid-template-columns: repeat(3x1fr);
     grid-template-areas: 
         "figure1 figure2 figure3";
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
 figure#figure1 {
     grid-area: figure1;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
 figure#figure2 {    
     grid-area: figure2;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (1, 0, 1) */
 
 figure#figure3 {
     grid-area: figure3;
