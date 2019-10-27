@@ -1,4 +1,6 @@
 Modificado index.html para incluir un aside que separe la foto del texto en la introducción de Los Soprano. (Forma de L invertida)
 Modificado index.html para incluir un aside que contenga el indice de la pagina.
 Audio incluido en index.html movido de sito.
+Cambiado un h2 dentro de personajes_y_reparto.html
 Modificado argumento_y_temporadas.html para incluir una section que envuelva al contenido del documento con su titulo
+Algunos html han sido modificados para añadir las clases correspondientes del .css
