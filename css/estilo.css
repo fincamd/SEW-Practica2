@@ -67,7 +67,7 @@ table {
 
 /* Especificidad: (0, 1, 1) */
 
-.darkTableHeader tr {
+.darkTableHeader th {
     background-color: lightseagreen;
 }
 
