@@ -11,6 +11,7 @@ header {
     background-color: lightcyan;
     color: indigo;
     text-align: center;
+    border-radius: 20px;
 }
 
 /* especificidad de las cinco reglas: (0,0,1) */
