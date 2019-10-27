@@ -26,9 +26,15 @@ header {
     grid-area: header;
 }
 
-/* Especificidad: (0, 0, 1) */
+/* Especificidad: (0, 0, 2) */
 
-img {
+section img {
     float: left;
-    padding-right: 128px;
+    padding-right: 32px;
+}
+
+/* Especificidad: (0, 0, 2) */
+
+section p {
+    padding-left: 32px;
 }
