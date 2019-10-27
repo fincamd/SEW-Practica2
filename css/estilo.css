@@ -54,3 +54,10 @@ a:hover {
 ul {
     list-style-image: circle inside none;
 }
+
+/* Especificidad: (0, 0, 1) */
+
+table {
+    border-color: lightgreen;
+    border-style: double;
+}
