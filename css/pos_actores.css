@@ -2,7 +2,7 @@
 
 section#actores {
     display: grid;
-    grid-template-columns: repeat(3x1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "header header header"
         "text1 text1 text1"
